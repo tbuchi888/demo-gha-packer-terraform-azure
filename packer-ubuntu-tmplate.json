@@ -24,7 +24,6 @@
         "dept": "Engineering",
         "task": "Image deployment"
     },
-    #"location": "Japan East",
     "location": "{{user `var_env_image_location`}}",
     "vm_size": "Standard_DS2_v2"
   }],
