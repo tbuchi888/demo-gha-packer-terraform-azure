@@ -1,4 +1,4 @@
-name: deployment for vm
+name: demo_image_builder
 
 # When this action will be executed
 on:
