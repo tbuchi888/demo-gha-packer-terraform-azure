@@ -1,4 +1,4 @@
-name: build image via packer and deploy via terraform
+name: build image via packer and deploy with terraform
 
 # When this action will be executed
 on:
