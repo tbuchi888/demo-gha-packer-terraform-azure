@@ -3,10 +3,10 @@ name: build image via packer and deploy with terraform
 # When this action will be executed
 on:
   # Automatically trigger it when detected changes in repo
-  # push:
-  #  branches:
-  #   - main
-  # pull_request:
+   push:
+    branches:
+     - main
+   pull_request:
   # Allow mannually trigger 
   workflow_dispatch: {}
 
